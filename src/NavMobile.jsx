@@ -15,10 +15,10 @@ function NavMobile({isToggled, toggleNav}) {
             </div>
             <div className={isToggled ? "flex justify-start mt-4 text-md font-semibold text-yellow-200" : "hidden"}>
                 <ul>
-                    <li className="pt-4">Home</li>
-                    <li className="pt-4">Products</li>
-                    <li className="pt-4">FAQ</li>
-                    <li className="pt-4">Contact</li>
+                    <li className="pt-4 active:text-white active:font-bold">Home</li>
+                    <li className="pt-4 active:text-white active:font-bold">Products</li>
+                    <li className="pt-4 active:text-white active:font-bold">FAQ</li>
+                    <li className="pt-4 active:text-white active:font-bold">Contact</li>
                 </ul>
             </div>
         </nav>

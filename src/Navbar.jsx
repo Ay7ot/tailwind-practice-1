@@ -7,10 +7,10 @@ function Navbar() {
            </div>
            <div>
                 <ul className="flex w-[300px] lg:w-[500px] justify-between font-semibold text-white text-lg">
-                    <li>Home</li>
-                    <li>Products</li>
-                    <li>FAQ</li>
-                    <li>Contact</li>
+                    <li className="hover:text-yellow-500 cursor-pointer">Home</li>
+                    <li className="hover:text-yellow-500 cursor-pointer">Products</li>
+                    <li className="hover:text-yellow-500 cursor-pointer">FAQ</li>
+                    <li className="hover:text-yellow-500 cursor-pointer">Contact</li>
                 </ul>
            </div>
         </nav>

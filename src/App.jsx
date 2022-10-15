@@ -15,7 +15,6 @@ function App() {
     setIsToggled(prevIstoggled=>!prevIstoggled)
   }
 
-  console.log(isToggled)
 
   return (
     <section className='bg-gray-700 px-4 pt-6 font-serif md:px-[3rem] xl:px-24'>
